@@ -1,0 +1,57 @@
+﻿html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #555;
+    background-color: whitesmoke;
+    font-size: 1em;
+}
+
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 50px 0 -15px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+#creator {
+    font-style:italic;
+    margin: 25px;
+}
+
+#TextBox {
+    width: 90%;
+    height: 400px;
+    border: 3px solid #555;
+    font-size: 1.5em;
+    font-family: Arial, sans-serif;
+    color: #555;
+}
+
+#Button {
+    padding: 15px;
+    font-size: 1.15em;
+    font-weight: bold;
+    color: #555;
+}
+
+#ResultLabel {
+    font-size: 2em;
+    color: green;
+}
+
+.errorMessage {
+    font-size: 1.25em;
+    color: red;
+}
